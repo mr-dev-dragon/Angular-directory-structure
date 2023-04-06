@@ -1,0 +1,88 @@
+|-- app
+	|-- core
+		|-- authentication
+			|-- [+] guards
+			|-- [+] interceptors
+			|-- [+] models
+			|-- [+] services
+		|-- config
+			|-- [+] environments
+			|-- config.service.ts
+		|-- layout
+			|-- [+] components
+			|-- [+] directives
+			|-- [+] pipes
+			|-- layout.module.ts
+		|-- shared
+			|-- [+] components
+			|-- [+] directives
+			|-- [+] pipes
+			|-- [+] services
+			|-- [+] models
+		|-- core.module.ts
+	|-- modules
+		|-- home
+			|-- [+] components
+			|-- [+] pages
+			|-- home-routing.module.ts
+			|-- home.module.ts
+		|-- auth
+			|-- [+] components
+			|-- [+] pages
+			|-- auth-routing.module.ts
+			|-- auth.module.ts
+			|-- [+] store
+				|-- auth.actions.ts
+				|-- auth.effects.ts
+				|-- auth.reducer.ts
+				|-- auth.selectors.ts
+				|-- auth.state.ts
+		|-- dashboard
+			|-- [+] components
+			|-- [+] pages
+			|-- dashboard-routing.module.ts
+			|-- dashboard.module.ts
+			|-- [+] store
+				|-- dashboard.actions.ts
+				|-- dashboard.effects.ts
+				|-- dashboard.reducer.ts
+				|-- dashboard.selectors.ts
+				|-- dashboard.state.ts
+	|-- shared
+		|-- [+] components
+			|-- confirmation-dialog
+				|-- confirmation-dialog.component.ts
+				|-- confirmation-dialog.component.html
+				|-- confirmation-dialog.component.scss
+			|-- error-message
+				|-- error-message.component.ts
+				|-- error-message.component.html
+				|-- error-message.component.scss
+			|-- loading-spinner
+				|-- loading-spinner.component.ts
+				|-- loading-spinner.component.html
+				|-- loading-spinner.component.scss
+		|-- [+] directives
+			|-- [+] form
+				|-- password-match.directive.ts
+				|-- password-strength.directive.ts
+			|-- [+] input
+				|-- input-mask.directive.ts
+		|-- [+] pipes
+			|-- date-format.pipe.ts
+			|-- ellipsis.pipe.ts
+			|-- safe-html.pipe.ts
+		|-- [+] services
+			|-- logger.service.ts
+	|-- [+] configs
+		|-- api.config.ts
+|-- assets
+	|-- scss
+		|-- [+] partials
+			|-- _variables.scss
+			|-- _mixins.scss
+			|-- _animations.scss
+		|-- _base.scss
+		|-- _typography.scss
+		|-- _layout.scss
+		|-- styles.scss
